@@ -1,0 +1,78 @@
+/* /src/App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.chatbot {
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.chatbot h3 {
+  font-size: 1.5rem;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.input-box input {
+  width: 80%;
+  padding: 5px;
+}
+
+.input-box button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.input-box button:hover {
+  background-color: #45a049;
+}
+
+.chat-window {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin: 5px 0;
+}
+
+.message.user {
+  text-align: right;
+  color: #007bff;
+}
+
+.message.bot {
+  text-align: left;
+  color: #333;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
